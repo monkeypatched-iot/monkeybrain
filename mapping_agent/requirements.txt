@@ -1,0 +1,15 @@
+langchain
+transformers
+torch
+langchain-ollama
+qdrant-client
+langchain-community
+fastapi
+sentence_transformers
+gym
+gym-notebook-wrapper
+dill
+psycopg2-binary
+langchain-huggingface
+boto3 
+pandas
