@@ -1,0 +1,15 @@
+torch 
+einops 
+yacs 
+kornia
+gdown
+opencv-python 
+opencv-python-headless
+numpy
+matplotlib
+psycopg2-binary
+influxdb3-python
+pandas
+neo4j
+boto3
+s3fs

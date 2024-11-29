@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  pytorch-container:
+    # Build the image from the local Dockerfile in the current directory
+    build:
+      context: .
+      dockerfile: Dockerfile  # Optional if the file is named "Dockerfile" in the current directory
+    volumes:
+      - ~/.aws:/root/.aws  # Mount AWS credentials for local development
+    env_file:
+         - .env
+    command: ["python", "main.py"]  # Command to run when container starts
